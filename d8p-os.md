@@ -24,7 +24,7 @@ The system stays useful by separating responsibilities. Management sets directio
 
 The operating model moves from direction to delivery to domain work, with the shared platform supporting every layer.
 
-![d8p OS operating architecture: sixteen repositories arranged across governance, input and output, domain applications, and shared platform layers](./assets/d8p-os-stack-architecture.svg)
+![d8p OS operating architecture: thirteen repositories arranged across governance, input and output, domain applications, and shared platform layers, with interface surfaces for harnesses, IDEs, Slack, and Teams](./assets/d8p-os-stack-architecture.svg)
 
 ## Repository map
 
