@@ -27,6 +27,8 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
 
 ## Selected work
 
+<a id="d8p-os"></a>
+
 ### [d8p OS](./d8p-os.md) <a href="https://www.linkedin.com/company/117044396/"><img src="./assets/d8p-logo.png" width="28" alt="d8p OS on LinkedIn"></a>
 
 **d8p OS is a modular personal operating system that turns scattered information and recurring work into governed, reusable workflows.** It is private, but active: a laboratory for ongoing experimentation that also delivers practical, incremental value in my daily life. Sixteen focused repositories operate as one product, with a management layer setting direction, domain applications keeping records close to the work, shared services supplying memory and reusable skills, and a common foundation keeping the system coherent.
