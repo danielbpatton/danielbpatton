@@ -2,6 +2,16 @@
   <img src="./assets/linkedin-banner.png" width="100%" alt="Daniel Patton — Content Architecture, User Experience, Intelligent Automation">
 </p>
 
+<p align="center">
+  <a href="#about-me">About</a> ·
+  <a href="#selected-work">Selected work</a> ·
+  <a href="#d8p-os">d8p OS</a> ·
+  <a href="#public-projects">Public projects</a> ·
+  <a href="#pinned">Pinned</a> ·
+  <a href="https://github.com/danielbpatton#js-contribution-activity-description">Contributions</a> ·
+  <a href="https://github.com/danielbpatton?tab=overview#year-link-2026">Activity</a>
+</p>
+
 ## About me
 
 I design the content systems that make AI experiences work. That means giving complex information structure, governance, and a clear path through it, so the technology built on top can stay useful, trustworthy, and fast to change.
@@ -17,7 +27,7 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
 
 ## Selected work
 
-### <a href="https://www.linkedin.com/company/117044396/"><img src="./assets/d8p-logo.png" width="28" alt="d8p OS"></a> [d8p OS](https://www.linkedin.com/company/117044396/)
+### [d8p OS](./d8p-os.md) <a href="https://www.linkedin.com/company/117044396/"><img src="./assets/d8p-logo.png" width="28" alt="d8p OS on LinkedIn"></a>
 
 **d8p OS is a modular personal operating system that turns scattered information and recurring work into governed, reusable workflows.** It is private, but active: a laboratory for ongoing experimentation that also delivers practical, incremental value in my daily life. Sixteen focused repositories operate as one product, with a management layer setting direction, domain applications keeping records close to the work, shared services supplying memory and reusable skills, and a common foundation keeping the system coherent.
 
@@ -49,8 +59,8 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
 </table>
 
 <p>
-  <a href="https://github.com/danielbpatton/d8p-knowledge/blob/main/knowledge-vault/d8p-os-docs/d8p-os-stack/index.md#Operating"><img src="./assets/lock.svg" width="22" alt="Private documentation"></a>
-  &nbsp;<a href="https://github.com/danielbpatton/d8p-knowledge/blob/main/knowledge-vault/d8p-os-docs/d8p-os-stack/index.md#Operating">Learn more about d8p OS (private)</a>
+  <a href="./d8p-os.md"><img src="./assets/d8p-logo.png" width="22" alt="d8p OS"></a>
+  &nbsp;<a href="./d8p-os.md">Explore d8p OS</a>
 </p>
 
 ### Public projects
@@ -73,3 +83,5 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
     </tr>
   </tbody>
 </table>
+
+<a id="pinned"></a>
