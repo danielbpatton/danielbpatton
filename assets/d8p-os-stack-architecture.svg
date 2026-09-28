@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1100" role="img" aria-labelledby="title desc">
   <title id="title">d8p OS operating architecture</title>
-  <desc id="desc">Sixteen repositories arranged in four connected layers: governance and direction, input and output, domain applications, and shared platform and foundation.</desc>
+  <desc id="desc">Thirteen repositories arranged in four connected layers, with interface surfaces alongside governance and direction.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0b315b"/>
@@ -20,6 +20,10 @@
       .layer{fill:#0b2747;stroke:#2e79ad;stroke-width:1.5}
       .card{fill:#10385f;stroke:#2e79ad;stroke-width:1.5}
       .card-accent{fill:#0d416f;stroke:#c7f000;stroke-width:2}
+      .card-interface{fill:#102c4c;stroke:#8c9eae;stroke-width:1.5;stroke-dasharray:7 5}
+      .icon,.icon path,.icon circle,.icon ellipse,.icon rect{fill:none;stroke:#c7f000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+      .icon-interface,.icon-interface path,.icon-interface circle,.icon-interface ellipse,.icon-interface rect{fill:none;stroke:#8c9eae;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+      .surface{font-family:Arial,sans-serif;font-weight:650;fill:#d8e8f3}
     </style>
   </defs>
 
@@ -27,92 +31,100 @@
   <circle cx="1250" cy="-20" r="260" fill="#ffffff" opacity="0.035"/>
   <circle cx="1180" cy="80" r="150" fill="#0077b5" opacity="0.12"/>
   <text x="72" y="72" class="display" font-size="38">d8p OS operating architecture</text>
-  <text x="72" y="106" class="desc" font-size="18">Sixteen focused repositories, one governed product</text>
+  <text x="72" y="106" class="desc" font-size="18">Thirteen focused repositories, one governed product</text>
   <line x1="72" y1="124" x2="1368" y2="124" stroke="#c7f000" stroke-width="3"/>
 
   <line x1="115" y1="200" x2="115" y2="952" stroke="#2e79ad" stroke-width="3"/>
   <circle cx="115" cy="200" r="8" fill="#c7f000"/>
-  <circle cx="115" cy="375" r="8" fill="#c7f000"/>
+  <circle cx="115" cy="390" r="8" fill="#c7f000"/>
   <circle cx="115" cy="625" r="8" fill="#c7f000"/>
   <circle cx="115" cy="900" r="8" fill="#c7f000"/>
   <text x="64" y="594" class="label" font-size="15" transform="rotate(-90 64 594)">DIRECTION → DELIVERY → DOMAINS → FOUNDATION</text>
 
-  <rect x="170" y="150" width="1198" height="132" rx="18" class="layer"/>
+  <rect x="170" y="150" width="1198" height="142" rx="18" class="layer"/>
   <text x="198" y="184" class="label" font-size="16">GOVERNANCE AND DIRECTION</text>
   <line x1="198" y1="196" x2="390" y2="196" stroke="#c7f000" stroke-width="3"/>
   <g filter="url(#shadow)">
-    <rect x="430" y="207" width="680" height="54" rx="12" class="card-accent"/>
-    <text x="454" y="232" class="repo" font-size="21">d8p-management</text>
-    <text x="454" y="251" class="desc" font-size="14">Priorities · decisions · queue · operating policy</text>
+    <rect x="285" y="207" width="320" height="72" rx="12" class="card-accent"/>
+    <rect x="309" y="232" width="7" height="7" rx="1" fill="#c7f000"/><rect x="319" y="232" width="7" height="7" rx="1" fill="#c7f000"/><rect x="309" y="242" width="7" height="7" rx="1" fill="#c7f000"/><rect x="319" y="242" width="7" height="7" rx="1" fill="#c7f000"/>
+    <text x="347" y="236" class="repo" font-size="18">d8p-management</text>
+    <text x="347" y="260" class="desc" font-size="13">Priorities · decisions · policy</text>
+    <rect x="660" y="207" width="555" height="72" rx="12" class="card-interface"/>
+    <rect x="683" y="230" width="24" height="16" rx="2" fill="#8c9eae"/><rect x="693" y="246" width="4" height="5" fill="#8c9eae"/><rect x="688" y="250" width="14" height="3" rx="1.5" fill="#8c9eae"/>
+    <text x="722" y="232" class="surface" font-size="15">INTERFACE SURFACES</text>
+    <text x="722" y="258" class="desc" font-size="14">Harnesses · IDE · Slack · Teams</text>
   </g>
 
-  <path d="M769 282V302" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M769 292V312" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
 
-  <rect x="170" y="315" width="1198" height="150" rx="18" class="layer"/>
-  <text x="198" y="349" class="label" font-size="16">INPUT AND OUTPUT</text>
-  <line x1="198" y1="361" x2="344" y2="361" stroke="#c7f000" stroke-width="3"/>
+  <rect x="170" y="325" width="1198" height="150" rx="18" class="layer"/>
+  <text x="198" y="359" class="label" font-size="16">INPUT AND OUTPUT</text>
+  <line x1="198" y1="371" x2="344" y2="371" stroke="#c7f000" stroke-width="3"/>
   <g filter="url(#shadow)">
-    <rect x="288" y="376" width="405" height="66" rx="12" class="card"/>
-    <text x="312" y="403" class="repo" font-size="20">d8p-creative</text>
-    <text x="312" y="426" class="desc" font-size="14">Design · case studies · publishable work</text>
-    <rect x="845" y="376" width="405" height="66" rx="12" class="card"/>
-    <text x="869" y="403" class="repo" font-size="20">d8p-newsroom</text>
-    <text x="869" y="426" class="desc" font-size="14">Editorial intake · stories · publishing flow</text>
+    <rect x="340" y="387" width="320" height="72" rx="12" class="card"/>
+    <rect x="364" y="410" width="23" height="22" rx="2" fill="#c7f000"/><rect x="368" y="414" width="7" height="6" fill="#0d416f"/><rect x="378" y="414" width="6" height="2" fill="#0d416f"/><rect x="378" y="418" width="6" height="2" fill="#0d416f"/><rect x="368" y="424" width="16" height="2" fill="#0d416f"/><rect x="368" y="428" width="12" height="2" fill="#0d416f"/>
+    <text x="402" y="416" class="repo" font-size="18">d8p-newsroom</text>
+    <text x="402" y="440" class="desc" font-size="13">Editorial intake · publishing flow</text>
+    <rect x="780" y="387" width="320" height="72" rx="12" class="card"/>
+    <polygon points="813,410 817,418 825,422 817,426 813,434 809,426 801,422 809,418" fill="#c7f000"/>
+    <text x="842" y="416" class="repo" font-size="18">d8p-creative</text>
+    <text x="842" y="440" class="desc" font-size="13">Design · stories · publishable work</text>
   </g>
 
-  <path d="M769 465V485" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M769 475V495" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
 
-  <rect x="170" y="498" width="1198" height="270" rx="18" class="layer"/>
-  <text x="198" y="532" class="label" font-size="16">DOMAIN APPLICATIONS</text>
-  <line x1="198" y1="544" x2="366" y2="544" stroke="#c7f000" stroke-width="3"/>
+  <rect x="170" y="508" width="1198" height="270" rx="18" class="layer"/>
+  <text x="198" y="542" class="label" font-size="16">DOMAIN APPLICATIONS</text>
+  <line x1="198" y1="554" x2="366" y2="554" stroke="#c7f000" stroke-width="3"/>
   <g filter="url(#shadow)">
-    <rect x="205" y="560" width="260" height="76" rx="12" class="card"/>
-    <text x="224" y="587" class="repo" font-size="18">d8p-career</text>
-    <text x="224" y="611" class="desc" font-size="13">Career strategy · opportunities</text>
-    <rect x="490" y="560" width="260" height="76" rx="12" class="card"/>
-    <text x="509" y="587" class="repo" font-size="18">d8p-financehome</text>
-    <text x="509" y="611" class="desc" font-size="13">Money · home records</text>
-    <rect x="775" y="560" width="260" height="76" rx="12" class="card"/>
-    <text x="794" y="587" class="repo" font-size="17">d8p-financehome-groceries</text>
-    <text x="794" y="611" class="desc" font-size="13">Shopping intent · grocery flow</text>
-    <rect x="1060" y="560" width="260" height="76" rx="12" class="card"/>
-    <text x="1079" y="587" class="repo" font-size="18">d8p-healthfitness</text>
-    <text x="1079" y="611" class="desc" font-size="13">Health · fitness · lessons</text>
-    <rect x="348" y="658" width="260" height="76" rx="12" class="card"/>
-    <text x="367" y="685" class="repo" font-size="18">d8p-music</text>
-    <text x="367" y="709" class="desc" font-size="13">Listening · playlists · discovery</text>
-    <rect x="633" y="658" width="260" height="76" rx="12" class="card"/>
-    <text x="652" y="685" class="repo" font-size="18">d8p-family</text>
-    <text x="652" y="709" class="desc" font-size="13">Family coordination · records</text>
-    <rect x="918" y="658" width="260" height="76" rx="12" class="card"/>
-    <text x="937" y="685" class="repo" font-size="18">d8p-companion</text>
-    <text x="937" y="709" class="desc" font-size="13">Conversational workflow surface</text>
+    <rect x="205" y="570" width="320" height="72" rx="12" class="card"/>
+    <rect x="228" y="598" width="24" height="16" rx="2" fill="#c7f000"/><rect x="235" y="594" width="10" height="6" rx="2" fill="#c7f000"/><rect x="239" y="605" width="4" height="3" fill="#0d416f"/>
+    <text x="267" y="599" class="repo" font-size="18">d8p-career</text>
+    <text x="267" y="623" class="desc" font-size="13">Career strategy · opportunities</text>
+    <rect x="560" y="570" width="320" height="72" rx="12" class="card"/>
+    <text x="582" y="615" fill="#c7f000" font-family="Arial,sans-serif" font-size="28" font-weight="700">⌂</text>
+    <text x="622" y="599" class="repo" font-size="18">d8p-financehome</text>
+    <text x="622" y="623" class="desc" font-size="13">Money · home records</text>
+    <rect x="915" y="570" width="320" height="72" rx="12" class="card"/>
+    <text x="937" y="615" fill="#c7f000" font-family="Arial,sans-serif" font-size="27" font-weight="700">♥</text>
+    <text x="977" y="599" class="repo" font-size="18">d8p-healthfitness</text>
+    <text x="977" y="623" class="desc" font-size="13">Health · fitness · lessons</text>
+    <rect x="382" y="665" width="320" height="72" rx="12" class="card"/>
+    <text x="404" y="710" fill="#c7f000" font-family="Arial,sans-serif" font-size="29" font-weight="700">♪</text>
+    <text x="444" y="694" class="repo" font-size="18">d8p-music</text>
+    <text x="444" y="718" class="desc" font-size="13">Listening · playlists · discovery</text>
+    <rect x="737" y="665" width="320" height="72" rx="12" class="card"/>
+    <text x="759" y="710" fill="#c7f000" font-family="Arial,sans-serif" font-size="27" font-weight="700">●●</text>
+    <text x="799" y="694" class="repo" font-size="18">d8p-family</text>
+    <text x="799" y="718" class="desc" font-size="13">Family coordination · records</text>
   </g>
 
-  <path d="M769 768V788" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M769 778V798" stroke="#c7f000" stroke-width="3" marker-end="url(#arrow)"/>
 
-  <rect x="170" y="800" width="1198" height="242" rx="18" class="layer"/>
-  <text x="198" y="834" class="label" font-size="16">SHARED PLATFORM AND FOUNDATION</text>
-  <line x1="198" y1="846" x2="472" y2="846" stroke="#c7f000" stroke-width="3"/>
+  <rect x="170" y="810" width="1198" height="232" rx="18" class="layer"/>
+  <text x="198" y="844" class="label" font-size="16">SHARED PLATFORM AND FOUNDATION</text>
+  <line x1="198" y1="856" x2="472" y2="856" stroke="#c7f000" stroke-width="3"/>
   <g filter="url(#shadow)">
-    <rect x="250" y="862" width="320" height="66" rx="12" class="card"/>
-    <text x="271" y="889" class="repo" font-size="18">d8p-knowledge</text>
-    <text x="271" y="912" class="desc" font-size="13">Governed vault · durable memory</text>
-    <rect x="610" y="862" width="320" height="66" rx="12" class="card"/>
-    <text x="631" y="889" class="repo" font-size="18">d8p-skills</text>
-    <text x="631" y="912" class="desc" font-size="13">Reusable capability contracts</text>
-    <rect x="970" y="862" width="320" height="66" rx="12" class="card"/>
-    <text x="991" y="889" class="repo" font-size="18">d8p-admin</text>
-    <text x="991" y="912" class="desc" font-size="13">Mail · calendar · tasks · rituals</text>
-    <rect x="250" y="950" width="320" height="66" rx="12" class="card"/>
-    <text x="271" y="977" class="repo" font-size="18">d8p-orchestrator</text>
-    <text x="271" y="1000" class="desc" font-size="13">Cross-repository work routing</text>
-    <rect x="610" y="950" width="320" height="66" rx="12" class="card"/>
-    <text x="631" y="977" class="repo" font-size="18">d8p-scaffold</text>
-    <text x="631" y="1000" class="desc" font-size="13">Blueprints · baselines · conformance</text>
-    <rect x="970" y="950" width="320" height="66" rx="12" class="card"/>
-    <text x="991" y="977" class="repo" font-size="18">d8p-obsidian-vault</text>
-    <text x="991" y="1000" class="desc" font-size="13">Legacy vault boundary · transition</text>
+    <rect x="205" y="872" width="320" height="72" rx="12" class="card"/>
+    <path d="M228 898c5-2 10-1 12 3v16c-3-3-7-4-12-2z" fill="#c7f000"/><path d="M252 898c-5-2-10-1-12 3v16c3-3 7-4 12-2z" fill="#c7f000"/>
+    <text x="267" y="901" class="repo" font-size="18">d8p-knowledge</text>
+    <text x="267" y="925" class="desc" font-size="13">Governed vault · durable memory</text>
+    <rect x="560" y="872" width="320" height="72" rx="12" class="card"/>
+    <polygon points="584,903 590,897 596,903 590,909" fill="#c7f000"/><polygon points="596,903 602,897 608,903 602,909" fill="#c7f000"/><polygon points="590,914 596,908 602,914 596,920" fill="#c7f000"/>
+    <text x="622" y="901" class="repo" font-size="18">d8p-skills</text>
+    <text x="622" y="925" class="desc" font-size="13">Reusable capability contracts</text>
+    <rect x="915" y="872" width="320" height="72" rx="12" class="card"/>
+    <rect x="939" y="899" width="22" height="3" rx="1.5" fill="#c7f000"/><rect x="939" y="906" width="22" height="3" rx="1.5" fill="#c7f000"/><rect x="939" y="913" width="22" height="3" rx="1.5" fill="#c7f000"/><circle cx="946" cy="900.5" r="3" fill="#0d416f"/><circle cx="954" cy="907.5" r="3" fill="#0d416f"/><circle cx="949" cy="914.5" r="3" fill="#0d416f"/>
+    <text x="977" y="901" class="repo" font-size="18">d8p-admin</text>
+    <text x="977" y="925" class="desc" font-size="13">Mail · calendar · tasks · rituals</text>
+    <rect x="382" y="958" width="320" height="72" rx="12" class="card"/>
+    <rect x="408" y="989" width="18" height="4" rx="2" fill="#c7f000"/><rect x="416" y="985" width="13" height="4" rx="2" fill="#c7f000" transform="rotate(-34 416 985)"/><rect x="416" y="996" width="13" height="4" rx="2" fill="#c7f000" transform="rotate(34 416 996)"/><circle cx="407" cy="991" r="3" fill="#c7f000"/><circle cx="427" cy="982" r="3" fill="#c7f000"/><circle cx="427" cy="1001" r="3" fill="#c7f000"/>
+    <text x="444" y="987" class="repo" font-size="18">d8p-orchestrator</text>
+    <text x="444" y="1011" class="desc" font-size="13">Cross-repository work routing</text>
+    <rect x="737" y="958" width="320" height="72" rx="12" class="card"/>
+    <rect x="761" y="982" width="8" height="8" rx="1" fill="#c7f000"/><rect x="775" y="982" width="8" height="8" rx="1" fill="#c7f000"/><rect x="761" y="996" width="8" height="8" rx="1" fill="#c7f000"/><rect x="775" y="996" width="8" height="8" rx="1" fill="#c7f000"/>
+    <text x="799" y="987" class="repo" font-size="18">d8p-scaffold</text>
+    <text x="799" y="1011" class="desc" font-size="13">Blueprints · baselines · conformance</text>
   </g>
 
   <text x="170" y="1074" class="desc" font-size="15">Management governs every layer · Domain work promotes durable knowledge · Shared services support every application</text>
