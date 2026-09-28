@@ -36,8 +36,8 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
 <table>
   <thead>
     <tr>
-      <th><img src="./assets/table-heading-layer.svg" width="210" alt="Layer"></th>
-      <th><img src="./assets/table-heading-responsibility.svg" width="620" alt="Responsibility"></th>
+      <th>Layer</th>
+      <th>Responsibility</th>
     </tr>
   </thead>
   <tbody>
@@ -70,8 +70,8 @@ Now I apply the same discipline to AI-native systems: retrieval architecture, co
 <table>
   <thead>
     <tr>
-      <th><img src="./assets/table-heading-project.svg" width="210" alt="Project"></th>
-      <th><img src="./assets/table-heading-capabilities.svg" width="620" alt="What it demonstrates"></th>
+      <th>Project</th>
+      <th>What it demonstrates</th>
     </tr>
   </thead>
   <tbody>
